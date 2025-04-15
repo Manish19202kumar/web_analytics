@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Staff Signup</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- LINEARICONS -->
+        <link rel="stylesheet" href="fonts/linearicons/style.css">
+        
+        <!-- STYLE CSS -->
+        <link rel="stylesheet" href="StaffSignup.css">
+    <meta name="robots" content="noindex, follow">
+</head>
+
+    <body>
+        <div class="wrapper">
+            <div class="inner">
+                <img src=".//images/Tablet login.gif" alt="" class="image-1">
+                <form action="staffsignup" method="post">
+                    <h3>Enter Details</h3>
+                    <div class="form-holder">
+                        <!-- <span class="lnr lnr-user"></span> -->
+                        <!-- <label for="name">Name: </label> -->
+                        <input type="text" name="name" id="name" required class="form-control" placeholder="Enter Your Name:">
+                    </div>
+                    <div class="form-holder">
+                        <!-- <span class="lnr lnr-phone-handset"></span> -->
+                        <!-- <label for="mobile">Mobile: </label> -->
+                        <input type="tel" pattern="{0-9}[10]" name="mobile" id="mobile" class="form-control" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="form-holder">
+                        <!-- <span class="lnr lnr-envelope"></span> -->
+                        <!-- <label for="email">Email: </label> -->
+                        <input type="email" name="email" id="email" class="form-control" placeholder=" Enter Your Email">
+                    </div>
+                    <div class="form-holder">
+                        <!-- <span class="lnr lnr-lock"></span> -->
+                        <!-- <label for="password">Password: </label> -->
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
+                    </div>
+                    <div class="form-holder">
+                        <span class="lnr lnr-lock"></span>
+                        <!-- <label for="dob">DOB: </label></th> -->
+                        <input type="date" name="dob" id="dob" class="form-control" placeholder="Date Of Birth">
+                    </div>
+                    <div class="form-holder">
+                        <!-- <span class="lnr lnr-lock"></span> -->
+                        <label for="gender">Gender: </label>
+                        <input type="radio" name="gender" value="male" id="gender" class="form-control" >Male
+                        <input type="radio" name="gender" value="female" id="gender" class="form-control" >Female
+                    </div>
+                    
+                    <!-- <button>
+                        <span>Register</span>
+                    </button> -->
+                    <button><span>Register</span></button> 
+                 <button type="reset">Cancel</button>
+                
+                 <div class="social">
+                         <div class="fb"><a href="SelectRole.html">Back</a></div>
+                        </div>
+                </form>
+                <img src="./images/image-2.webp" alt="" class="image-2">
+            </div>
+            
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8dce7035ed0f3a5b","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.4","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+  

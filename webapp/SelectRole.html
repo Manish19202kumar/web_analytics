@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Role</title>
+    <link rel="stylesheet" href="SelectRole.css">
+</head>
+<body>
+<!-- <h1>Select Type of Account</h1> -->
+
+<div class="wrapper">
+    <div class="inner">
+        <!-- <img src="Tablet login.gif" alt="" class="image-1"> -->
+        <img src=".//images/Tablet login.gif" alt="" class="image-1">
+        <form action="selectrole" method="post">
+
+            <h3>Select Account</h3>
+            <div class="form-holder">
+                <span class="lnr lnr-user"></span>
+                <input type="radio" name="role" value="staff" required class="form-control" placeholder="Username"> Staff <br>
+            </div>
+            <div class="form-holder">
+                <!-- <span class="lnr lnr-phone-handset"></span> -->
+                <input type="radio" name="role" value="vendor" class="form-control" placeholder="Phone Number"> Vendor <br>
+            </div>
+           
+            <!-- <button>
+                <span>Submit</span>
+            </button> -->
+            <a href="StaffHome.html">Submit</a>
+            <div class="social">
+                <div class="fb"><a href="VendorHome.html">Vendor Here</a></div>
+            </div>
+        </form>
+        <img src=".//images/image-2.webp" alt="" class="image-2">
+    </div>
+    
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8dce7035ed0f3a5b","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.4","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+</body>
+</html>
+
